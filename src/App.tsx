@@ -12,6 +12,7 @@ const App: React.FC = () => {
 		});
 		return () => unSub();
 	}, []);
+
 	return (
 		<div className="App">
 			{tasks.map((task) => (
