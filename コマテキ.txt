@@ -1,0 +1,25 @@
+# reactテンプレートをデプロイ
+npx create-react-app . --typescript
+
+# @material-ui/coreをインストール
+npm i @material-ui/core
+
+# @material-ui/iconsをインストール
+npm i @material-ui/icons
+
+# firebaseをインストール
+npm i firebase
+
+# ログインページとタスク管理画面を切り替える為にreact-router-domをインストール
+# ルーティング
+npm i react-router-dom @types/react-router-dom
+
+# firebaseにもろもろプロジェクトを追加後.envをプロジェクトルートに作成しreactの環境変数を定義
+  その後npmを再スタートし環境変数を認識させる
+# firabaseコンソールのcloudfirestoreからデータベースの作成(テストモード)
+
+# firebase Authenticationからメールでのログイン機能を有効化
+
+# buildについて
+npm run buildでビルドする
+build後はbuildディレクトリに格納されている
