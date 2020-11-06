@@ -5,6 +5,3 @@
 https://www.udemy.com/course/firebasereact-hookstypescript-todo/
 
 TypeScript作成したToDoアプリをFirebase上にデプロイ
-アプリのURL
-
-https://udemy-todo-121bb.web.app
